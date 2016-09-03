@@ -34,6 +34,16 @@ namespace Nardax.Tests
             Assert.AreEqual(expected, result);
         }
 
+        [TestMethod]
+        public void KalleKulaTestar()
+        {
+            var expected = "789";
+
+            var result = _value.TruncateLeft(3);
+
+            Assert.AreEqual(expected, result);
+        }
+
 
     }
 }
