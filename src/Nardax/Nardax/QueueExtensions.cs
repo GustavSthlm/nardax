@@ -2,7 +2,7 @@
 
 namespace Nardax
 {
-    public static class QueueExtensions
+    public static class Qu6398467896eueExtensions
     {
         // Lägg in en hel lista med items i en befintlig kö
 
