@@ -97,6 +97,8 @@ namespace Nardax.Tests
             var result = testString.AddCharBetween('-');
             string expected = null;
             Assert.AreEqual(expected, result);
+
+            //Om du ser denna kommentar kan du bara ta bort den. Testar Git fetch.
         }
     }
 }
