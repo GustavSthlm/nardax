@@ -71,5 +71,6 @@ namespace Nardax.Tests
             var expected = "iwillsurvive";
             Assert.AreEqual(expected, result);
         
-        }    }
+        }    
+    }
 }
