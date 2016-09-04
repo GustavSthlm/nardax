@@ -48,6 +48,23 @@ namespace Nardax
             return Regex.Replace(value, "\\s", "");
         }
 
+        public static string AddCharBetween(this string value, char c)
+        {
+            var sb = new StringBuilder();
+            foreach (var x in value)
+            {
+                sb.Append(x);
+                sb.Append(c);
+            }
 
+            // Obs! Inte klar!
+
+            return sb.ToString();
+        }
+
+        private static object StringBuilder()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
